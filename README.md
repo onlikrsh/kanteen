@@ -29,11 +29,3 @@ Kanteen is a web application built using React.js that aims to streamline the bi
 </ul>
 
 
-
-
-```
-$ git push origin <branch-name>
-```
-
-- Navigate to the original repository and make a pull request
-
