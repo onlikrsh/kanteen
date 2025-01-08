@@ -22,7 +22,7 @@ Kanteen is a web application built using React.js that aims to streamline the bi
 # Getting Started:
 
 <ul>
-  <li>Clone the repository: git clone https://github.com/nazeer-18/kanteen.git</li>
+  <li>Clone the repository: git clone https://github.com/onlikrsh/kanteen.git</li> 
   <li>Install dependencies: npm install</li>
   <li>Start the development server: npm start</li>
   <li>Access the application in your browser at http://localhost:3000</li>
@@ -30,53 +30,6 @@ Kanteen is a web application built using React.js that aims to streamline the bi
 
 
 
-<h3> Clone the Repo by typing the following commands in the terminal </h3>
-
-```
-$ git clone https://github.com/nazeer-18/kanteen.git
-
-$ cd kanteen
-```
-<img width="1440" alt="" src="https://github.com/nazeer-18/kanteen/assets/99654015/c6c614c9-07b9-426e-b5d3-6425f87726f3">
-
-
-<!--
-- Open this folder in your favourite IDE. <br>
-- Run `git pull` command to sync with remote repo.<br>
-  <br> -->
-<h3> Star the repo <h3>
-<img width="1440" alt="" src="https://github.com/nazeer-18/kanteen/assets/99654015/d02a12fa-d42c-434b-beeb-3528a7805b88">
-
-
-- Clone the Repository after forking
-
-```
-$ git clone https://github.com/<your-github-username>/kanteen.git
-
-$ cd kanteen
-```
-
-- Make changes to the code(for ex- add an update route)
-
-- Create a Branch using:
-
-```
-$ git checkout -b <branch-name>
-```
-
-- Stage your changes using:
-
-```
-$ git add .
-```
-
-- Commit your changes using:
-
-```
-$ git commit -m "add any comment"
-```
-
-- Push the changes to the forked repository using:
 
 ```
 $ git push origin <branch-name>
