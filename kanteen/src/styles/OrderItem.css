@@ -1,0 +1,166 @@
+.order-item-content{
+    margin: 15px 5px;
+    padding: 5px;
+    border:2px solid grey;
+    border-radius:14px;
+}
+
+.order-item-content hr{
+    width:100%;
+    height:1px;
+    margin:0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+.order-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-item-order-details{
+    padding: 3px;
+}
+
+.order-item-order-details div{
+    margin: 2px;
+    padding: 2px;
+}
+
+.ordered-date{
+    color: #19191C;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.ordered-date svg{
+    color:#bf0c45;
+    margin-right: 4px;
+}
+
+.order-id{
+    color:#828487;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 2px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.order-status{
+    position: relative; 
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.order-status.completed {
+    background-color: green;
+    color: white;
+}
+.order-status.cancelled {
+    background-color: #ed2525;
+    color: white;
+}
+
+.order-status.processing {
+    background-color: #00b1eb;
+    color: white;
+}
+
+.order-status.pending {
+    background-color: #e4e424;
+    color: black;
+}
+
+.order-explore-button button{
+    margin: 5px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #bf0c45;
+    color:white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.order-explore-button button:hover{
+    background-color: #962b3f;
+}
+
+.payment-details{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.order-payment-status{
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #828487;
+    padding: 2px;
+    margin: 2px;
+}
+
+.order-payment-status div{
+    margin: 2px;
+    padding: 2px;
+}
+
+.payment-details svg{
+    color:#bf0c45;
+    margin-right: 4px;
+}
+
+.order-item-total{
+    color: #19191C;
+    font-size:14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 2px;
+    margin: 2px;
+}
+
+.txt-black{
+    color: #19191C;
+    font-weight: 600;
+    font-size:15px;
+}
+
+.order-item-details-third{
+    display: none;
+}
+
+.hidden-hr{
+    display: none;
+}
+
+.apply-break{
+    display: none;
+}
+
+@media(max-width:600px){
+    .order-explore, .order-item-total{
+        display: none;
+    }
+    .order-item-details-third{
+        display: flex;
+        padding: 3px 1px;
+    }
+    .hidden-hr{
+        display: block;
+    }
+}
+
+@media(max-width:420px){
+    .apply-break{
+        display: block;
+    }
+}

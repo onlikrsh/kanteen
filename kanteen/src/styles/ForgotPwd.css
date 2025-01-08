@@ -1,0 +1,136 @@
+.back-btn-container{
+    margin: 15px auto 6px 23px;
+}
+
+.back-btn{
+    font-size: 30px;
+    font-family: 'petrona';
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    padding: 7px;
+}
+
+.forgotpwd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.forgotpwd-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+}
+
+.forgotpwd-image-container img{
+    min-width: 320px;
+}
+
+.forgotpwd-forgot-container{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forgotpwd-forgot-txt{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.forgotpwd-suggest{
+    color:#4f4c4c;
+    font-size: 18px;
+    margin-bottom: 9px;
+    max-width: 75%;
+}
+
+.forgotpwd-email-group{
+    margin: 0px auto;
+    padding: 5px; 
+    text-align: center;
+    position: relative;
+}
+
+.forgotpwd-email-group input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #bf0c45;
+    font-family: 'petrona';
+    font-size: 18px;
+    margin:10px 5px;
+}
+
+.validateicon{
+    position: absolute;
+    top: 30%;
+    right: 70px;
+    font-size: 35px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.forgotpwd-btn-container{
+    text-align: center;
+    margin: 7px 5px;
+    padding: 3px 8px;
+}
+
+.forgotpwd-btn-container button{
+    width: 70%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    border: none;
+    background-color: #bf0c45;
+    color: white;
+    cursor: pointer;
+}
+
+.forgotpwd-email-check-alert{
+    color: rgb(255 0 0);
+    font-size: larger;
+    font-weight: 600;
+    background-color: #d4d9dcb5;
+    border-radius: 37px;
+    padding: 10px;
+    margin:auto 5px;
+    text-align: center;
+}
+
+@media(max-width:740px){
+    .forgotpwd-suggest{
+        max-width: 100% !important;
+    }
+    .forgotpwd-image-container{
+        width:85vw;
+    }
+}
+
+@media(max-width:600px){
+    .validateicon{
+        display: none;
+    }
+}
+
+@media(max-width:400px){
+    .forgotpwd-forgot-container{
+        margin: 2px 5px!important;
+        padding: 2px;
+    }
+    .forgotpwd-email-group input[type="email"]{
+        width: 90%;
+    }
+    .forgotpwd-btn-container button{
+        width: 100%;
+    }
+}

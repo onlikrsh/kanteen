@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1.35px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.app-name{
+    text-align: center;
+    margin: 0px auto;
+}
+
+.responsive-nav{
+    display: none;
+}
+
+.responsive-nav-show{
+    display: block;
+}
+
+.nav-body{
+    background-color: #bf0c45;
+    color: white; 
+    font-family:'petrona';
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-body .wish{
+    margin-right: 18px;
+}
+
+.hide-nav{
+    display: none;
+}
+
+.hamburger button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 4px;
+    padding: 3px;
+    padding-bottom: 0;
+}
+
+.sidenav{
+    position: absolute;
+    top: 0;
+    left: -400px;
+    height: 100vh;
+    min-width: 200px;
+    padding: 0px 8px; 
+    color:white;
+    background-color:#e7e7e7;
+    z-index: 5;
+    border-radius:0px 25px 25px 0px; 
+    transition: left 0.5s ease-in-out;
+}
+
+.sidenav-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.sidenav-logo img{
+    width: 32px;
+    height: 32px;
+}
+
+.sidenav-link{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.sidenav-link a:hover{
+    background-color: #bf0c45;
+    color: white;
+    border-radius: 8px;
+}
+
+.side-nav-item-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin:auto;
+    padding: 4px;
+}
+
+.sidenav-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 3px 0px;
+    width:30px
+}
+
+.side-nav-item-desc{
+    margin-left: 10px;
+}
+
+.sidenav-link a{
+    color:#bf0c45;
+    font-family: 'poppins';
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.show-nav{
+    left:0px;
+    padding: 10px 0px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    transition: left 0.5s ease-in-out
+}
+.dropdown-content{
+    position: absolute;
+    background-color: #e7e7e7;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 550;
+    color: #bf0c45;
+    text-align: center;
+    right: 0px;
+    margin-top:235px;
+}
+.dropdown-link {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.dropdown-link a{
+    color: #bf0c45;
+    font-family: 'poppins';
+    text-decoration: none;
+    padding: 3px;
+}
+.dropdown-link a:hover{
+    background-color: #bf0c45;
+    color: white;
+    border-radius: 8px;
+}
+.dropdown-link h3 {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dropdowm-container a:hover{
+    background-color: #bf0c45;
+    color: white;
+    border-radius: 8px;
+}
+.dropdown-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin:auto;
+    padding: 4px;
+}
+
+.dropdown-content button {
+    background-color: #bf0c45;
+    color: white;
+    border: none;
+    padding: 6px 18px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'poppins';
+    font-size: larger;
+    font-weight: 500;
+    display:flex;
+    margin-left:17%;
+}
+.drop-down-logouticon{
+    margin-left: 4px;
+}
+.drop-down-items{
+    margin-left: 10px;
+}

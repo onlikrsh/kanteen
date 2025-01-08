@@ -1,0 +1,122 @@
+.cart-page{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 10px;
+    width:37vw;
+    margin: 10px auto;
+}
+
+.cart-img img{
+    min-width: 320px;
+    min-height: 320px;
+}
+
+.cart-container{
+    max-width:500px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.cart-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.cart-arrow{
+    cursor: pointer;  
+    background-color: #bf0c45;
+    color:white;
+    font-size: 1.45rem;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 3px;
+    border-radius: 200px;
+}
+
+.cart-heading-desc{
+    font-family: 'petrona';
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-heading-txt{
+    font-weight: bold;
+    font-size:27px;
+    font-family: 'petrona', sans-serif;
+}
+
+.cart-heading-price{
+    padding: 3px;
+    color:black;
+    font-size: 1.1rem;
+    font-family: 'petrona';
+}
+
+
+.cart-content{
+    background-color: white;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 5px;
+    border-radius: 18px;;
+}
+
+.cart-total{
+    text-align: right;
+    font-weight: bold;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
+
+.cart-total span{
+    color:#bf0c45;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'petrona';
+}
+
+.cart-footer{
+    text-align: center;
+    padding: 5px 7px;
+}
+
+.cart-footer-button{
+    width: 80%;
+    background-color: #bf0c45;
+    color: white;
+    padding: 11px 5px;
+    border: none;
+    border-radius: 55px;
+    font-family: 'petrona';
+    font-size: 1.23rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+@media(max-width:700px){
+    .cart-img{
+        display: none;
+    }
+    .cart-page{
+        display: block;
+    }
+    .cart-content{
+        padding: 5px;
+    }
+}

@@ -1,0 +1,139 @@
+.editprofile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.editprofile-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  width: 45vw;
+  object-fit: contain;
+}
+
+.editprofile-form-container .editprofile-container {
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  font-family: 'petrona';
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin: 5px;
+}
+
+.editprofile-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  font-family: 'petrona';
+  font-size: 25px;
+  
+}
+
+.editprofile-form {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  margin: 3px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.editprofile-form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.editprofile-form-group label {
+  font-size: large;
+  font-family: 'petrona';
+  width: 165px; 
+  margin-right: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.editprofile-form-group input[type="text"]{
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #bf0c45;
+  font-size: medium;
+  font-family: 'petrona';
+  box-sizing: border-box;
+}
+
+.editprofile-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editprofile-button {
+  width: 70%;
+  margin: 10px;
+  padding: 10px 20px;
+  font-family: 'petrona';
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  background-color: #bf0c45;
+}
+
+.editprofile-hidden-texts {
+  color: rgb(255 0 0);
+  
+  font-size: large;
+  margin-bottom: auto;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'petrona';
+  margin-top: -8px;
+  text-align: center;
+}
+
+.editprofile-check-text {
+  font-size: 15px;
+  font-family: 'petrona';
+  color: rgb(255 0 0);
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+@media (max-width: 1020px) {
+  .editprofile-container {
+    flex-direction: column;
+    padding: 0px!important;
+    margin: 0px!important;
+    min-width: 310px;
+  }
+  .editprofile-form {
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+}
+
+.editprofile-message {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.editprofile-message.success {
+  color: green;
+}
+
+.editprofile-message.error {
+  color: red;
+}

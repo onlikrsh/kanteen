@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'petrona';
+    background-color: #e5e5e5;
+}
+
+.homepage-greeting{
+    margin-top: 10px;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+text-amrita {
+    font-weight: 700;
+    color: #bf0c45;
+}
+
+.foodpage-slogan text-grey{
+    font-size: large;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.homepage-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.foodpage-slogan{
+    padding: 7px;
+    margin: auto 10px;
+}
+
+.foodpage-image{
+    margin: 5px;
+}
+
+.homepage-functions{ 
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.homepage-alerts{
+    padding: 5px; 
+    width:80vw; 
+    margin: 0px auto;
+}
+
+.homepage-alerts-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'petrona';
+    padding: 10px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.homepage-buttons-group{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:80vw;
+}
+
+.homepage-button-container{
+    width:340px;
+    height:60px;
+    margin: 8px;
+    box-sizing: border-box; 
+}
+
+.homepage-button{  
+    width:100%; 
+    height:100%;
+    box-sizing: border-box;
+    position: relative; 
+    background-color: #fff;
+    color: #bf0c45; 
+    text-align: center;
+    font-size: 18px; 
+    padding: 9px 40px 9px 0px;
+    transition: all 0.4s ease-in-out;
+    font-family: 'petrona';
+    font-weight: 600; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-name{ 
+    position: relative;
+    z-index: 500;
+}
+
+.btn-icon{
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    float: right;
+    right:0px;
+    top:0px;
+    background-color: #bf0c45;
+    transition: all 0.4s ease-in-out;
+    color:white;
+}
+
+.btn-icon svg{
+    position: absolute;
+    top: 17px;
+    right:27px;
+}
+
+.btn-icon::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 60px solid #fcfcfc;
+    border-right: 40px solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    transition:all 0.4s ease-in-out;
+}
+
+.homepage-button:hover{ 
+    color: #fff !important;  
+}
+
+.homepage-button:hover .btn-icon{
+    width:100%; 
+}
+
+.homepage-button:hover .btn-icon::after{
+    border-top: 0px; 
+}
+
+
+@media(max-width:880px){
+    .homepage-buttons-group{
+        justify-content: center;
+    }
+}
+
+@media(max-width:500px){ 
+    .btn-icon{
+        width:65px;
+    }
+    .btn-icon svg{
+        top: 20px;
+        right: 10px;
+    } 
+}

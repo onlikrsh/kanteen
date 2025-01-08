@@ -1,0 +1,125 @@
+  .reset-pwd-homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reset-pwd-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    min-width:40vw;
+  }
+
+  .reset-pwd-container .reset-pwd-form-container{
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .reset-pwd-image-container {
+    display: flex;    
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    margin: 0px;      
+    background-color: #eeecec;
+    border-radius: 75px;
+    width:33vw;
+    margin:10px;
+  }
+  
+  .reset-pwd-image-container img {
+    min-width:340px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .reset-pwdvertxt{
+    text-align: left;
+    font-weight: bold;
+    display: block;
+    font-family: 'petrona';
+    font-size: 40px;
+  }
+  .reset-pwdauthtxt{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    text-align: left;
+    font-weight: light;
+    display:block;
+    color: #4f4c4c;
+    font-family: 'petrona';
+    font-size: 15px;
+  }
+  
+  .reset-pwd-form{
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    margin: 3px;
+    box-sizing: border-box;
+  }
+  .reset-pwd-form-group{
+    width: 100%;
+    font-size: large;
+  }
+  
+  .reset-pwd-form-group input[type="password"],.reset-pwd-form-group input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bf0c45;
+    font-size: large;
+    font-family: 'petrona';
+    box-sizing: border-box;
+    margin-top: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .reset-pwd-group{
+    position: relative;
+  }
+
+  .reset-pwd-eye{
+    position: absolute;
+    right: 12px;
+    top: 23px;
+  }
+
+  .reset-pwd{
+    width: 100%;
+    font-family: 'petrona';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .reset-pwdBtn{
+    width: 80%;
+    padding: 10px 15px;
+    background-color: #bf0c45;
+    font-family: 'petrona';
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size:18px;
+    border-radius: 30px;
+  }
+
+  .reset-response{
+    word-wrap: break-word;
+    max-width: 290px;
+  }
+  
+  @media(max-width:400px){
+    .reset-pwdvertxt{
+      font-size: 36px;
+    }
+  }

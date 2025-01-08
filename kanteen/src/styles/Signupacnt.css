@@ -1,0 +1,162 @@
+.signupacnt-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.signupacnt-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 35vw;
+}
+
+.signupacnt-img{
+    min-width: 320px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 27px;
+}
+
+.signupacnt{
+    display: flex;
+    flex-direction: column;
+    background-color: #eeecec;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    width:38vw;
+    text-align: center;
+    margin: 10px;
+    border-radius: 27px;
+}
+
+.signupacnt-signuptxt{
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    font-family: 'petrona';
+    font-size: 25px;
+    padding: 10px;
+}
+
+.signupacnt-signup-form{
+    width: 75%;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+.signupacnt-form-group input[type="text"],.signupacnt-form-group input[type="password"], .signupacnt-form-group input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bf0c45;
+    font-size: large;
+    font-family: 'petrona';
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 14px;
+}
+
+.signupanct-hidden-texts{
+    color: rgb(255 0 0);
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'petrona';
+    margin-top: -8px;
+    text-align: center;
+}
+
+.signupanct-hidden-texts ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    padding: 1px;
+    margin: 1px;
+    font-size: large;
+}
+.signupacnt-check-text{
+    font-size: 18px;
+    font-family: 'petrona';
+    color: #bf0c45;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.eyedisplay{
+    margin: 0px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+}
+.signupacnt-form-group .userNameWarning{
+    color: rgba(255, 0, 0, 0.866);
+    padding-left: 10px;
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.signupact-pwd-group{
+    display: flex;
+    position: relative;
+}
+
+.signupacnt-createAcnt{
+    width: 90%;
+    padding: 3px 10px 0px;
+    font-family: 'petrona';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 7px;
+    padding-top: 3px;
+}
+
+.signupacnt-createAcntBtn{
+    width: 85%;
+    margin: 0px auto;
+    padding: 10px 20px;
+    background-color: #bf0c45;
+    font-family: 'petrona';
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size:18px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.memoryb{
+    text-align: center;
+    display: inline-block;   
+    padding: 3px;
+    margin: 0px auto;
+    margin-bottom: 12px;
+}
+
+.signupacnt-loginBtn{
+    color: #bf0c45;
+    font-family: 'petrona';
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+    .signupacnt{
+        width:75vw;
+    }
+    .signupacnt-signup-form{
+        padding: 4px;
+    }
+}

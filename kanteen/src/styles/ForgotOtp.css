@@ -1,0 +1,124 @@
+.forgot-otp-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+}
+
+.forgot-otp-image-container {
+  display: flex;    
+  justify-content: center; 
+  align-items: center; 
+  width:30vw;
+}
+
+.forgot-otp-form-container{
+  margin: 10px;
+  padding: 10px;
+}
+
+.forgot-otpvertxt{
+  text-align: left;
+  font-weight: bold;
+  display: block;
+  font-family: 'petrona';
+  font-size: 35px;
+}
+
+.forgot-otpauthtxt{
+  margin: 13px auto;
+  text-align: left; 
+  display:block;
+  color: #4f4c4c;
+  font-family: 'petrona';
+  word-wrap: break-word !important;
+  font-size: 15px;
+}
+
+.forgot-otprestxt{
+  margin-bottom: 13px;
+  text-align: center;
+  font-weight: light;
+  display:block;
+  color: rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+
+.forgot-otprestxt button{
+  border-style: hidden;
+  color: #bf0c45;
+  font-family: 'petrona';
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.forgot-otp-form{
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  margin: 3px;
+  box-sizing: border-box;
+}
+
+.forgot-otp-form-group{
+  width: 100%;
+  font-size: large;
+}
+
+.forgot-otp-form-group input[type="text"],.forgot-otp-form-group input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bf0c45;
+  font-size: large;
+  font-family: 'petrona';
+  box-sizing: border-box;
+  margin-top: 14px;
+  margin-bottom: 15px;
+}
+
+.Message{
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: auto;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'petrona';
+  margin-top: -8px;
+  text-align: center;
+}
+
+.forgot-otp{
+  width: 100%;
+  font-family: 'petrona';
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.forgot-otpBtn{
+  width: 85%;
+  margin: 0px auto;
+  padding: 10px 15px;
+  background-color: #bf0c45;
+  font-family: 'petrona';
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size:18px;
+  border-radius: 30px;
+}
+
+
+@media(max-width:600px){
+  .forgot-otp-image-container{
+    width: 65vw;
+  }
+  .forgot-otp-form-container{
+    margin: 5px;
+    padding: 5px;
+  }
+}
